@@ -1,0 +1,22 @@
+body{
+  background-color: #eeeeee;
+}
+hr{
+  border:  dotted;
+  border-width: 5px;
+  border-bottom: none;
+  color: #393e46;
+  width: 10%;
+}
+h1{
+  color: #00adb5;
+}
+h3{
+  color: #00adb5;
+}
+a{
+  text-decoration: none;
+}
+.hello{
+  font-variant: small-caps;
+}
