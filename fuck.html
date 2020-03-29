@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <form class="" action="index.html" method="post">
-      <input type="image"src="redrow.png" width="240"name="" value="">
-    </form>
-
-    
-  </body>
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>-moz-placeholder</title>
+  <style>
+   body { background: #053f38; }
+   input[type="search"] {
+    border: 1px solid #98baba; /* Параметры рамки */
+    background: transparent; /* Прозрачный фон */
+    padding: 1px 4px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+   }
+   input[type="search"]::-moz-placeholder {
+    color: #ffd595; /* Цвет подсказывающего текста */
+   }
+  </style>
+ </head>
+ <body>
+  <form>
+   <p><input type="search" placeholder="Поиск по сайту" name="q">
+   <input type="submit" value="Найти"></p>
+  </form>
+ </body>
 </html>
